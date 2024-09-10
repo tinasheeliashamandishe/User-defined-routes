@@ -31,15 +31,15 @@ Create a Bastion subnet.<br/>
 <h4>Step 3</h4> 
 
 <h4>To enable User defined routes, first create a Route table resource.</h4> 
-<img src="https://i.imgur.com/YnUlt3I.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/TucsZEz.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <h4>Step 3</h4>
 
 <h4>Add route(s) to your route table</h4> 
-<img src="https://i.imgur.com/tmw9F3Z.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/7YzbUOM.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 <h4>Associate the route table with the relevant subnets</h4> 
-<img src="https://i.imgur.com/tmw9F3Z.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/vQcrazv.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 <h4>Enable IP forwading</h4> 
-<img src="https://i.imgur.com/tmw9F3Z.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/94vAHJC.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
