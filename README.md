@@ -21,8 +21,10 @@ Override Default Routes: UDRs can override Azure’s default routing, allowing f
 
 <p align="center">
 <h4>Topology</h4>
-Below, we have created a VM. This VM has no public IP address. Ware going to use Azure to log onto the VM<br/>
-<img src="https://i.imgur.com/bhbcrm3.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Below, we have 3 subnets in the same same network 10.0.0.0\16.<br/>
+By default traffic moves accross all subnets in a network.<br/>
+In the lab we will configure, all traffic in the network to pass through, the Central Subnet..<br/>
+<img src="https://i.imgur.com/m0AicN3.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 
 <h4>By default Azure allows traffic inside the Vnet</h4> 
