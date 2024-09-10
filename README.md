@@ -3,19 +3,13 @@
 <h2>Description</h2>
 This lab will configure user defined routes.<br /><br />
 
-Azure Bastion is a fully managed Platform as a Service (PaaS) offering from Microsoft Azure that provides secure and seamless RDP and SSH connectivity to your virtual machines (VMs) directly from the Azure portal. It eliminates the need to expose VMs to the public internet or to maintain jump servers or bastion hosts in your virtual network.
-<br /><br />
-Azure Bastion acts as a bridge between your virtual network and the Azure management portal, allowing you to securely connect to your VMs over Remote Desktop Protocol (RDP) or Secure Shell (SSH) directly within the Azure portal interface, without the need for a public IP address on the VMs or VPN connections. This enhances security by reducing exposure to the public internet and simplifies remote access management for administrators.
-<br /><br />
-Key features of Azure Bastion include:
-<br /><br />
-<b>Secure Access:</b> Azure Bastion provides secure and seamless RDP and SSH access to your VMs in Azure without exposing them to the public internet.<br />
-<b>Fully Managed Service:</b> Azure Bastion is a fully managed PaaS offering, eliminating the need for you to manage bastion hosts or jump servers in your virtual network.<br />
-<b>Integrated Experience:</b> You can access your VMs using RDP or SSH directly from the Azure portal interface, providing a centralized and streamlined management experience.<br />
-<b>Zero Public IP Requirement:</b> VMs do not require a public IP address for RDP or SSH access, reducing the attack surface and simplifying network security.
-<br />
-<br />
-Overall, Azure Bastion simplifies and enhances the security of remote access to VMs in Azure, providing a convenient and secure way for administrators to manage their virtual infrastructure.
+In Azure, user-defined routes (UDRs) are a feature of the Azure Virtual Network (VNet) that allow you to control the routing of network traffic within your virtual network. By default, Azure provides a basic routing table for your VNets, but sometimes you need more control over how traffic flows, such as routing it through a specific network appliance or directing it to a different subnet.<br/><br/>
+
+
+</h4> Purpose of User-Defined Routes</h4> <br/><br/>
+Custom Routing Paths: You can create routes to direct traffic to a specific virtual appliance, like a firewall or VPN gateway, instead of the default route.<br/><br/>
+Control Traffic Flow: Useful for scenarios like enforcing traffic inspection or implementing complex network architectures.<br/><br/>
+Override Default Routes: UDRs can override Azure’s default routing, allowing for more precise control over the network traffic.<br/><br/>
 
 
 
