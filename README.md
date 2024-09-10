@@ -25,17 +25,21 @@ Below, we have created a VM. This VM has no public IP address. Ware going to use
 <img src="https://i.imgur.com/bhbcrm3.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 
-<h4>Step 1</h4> 
+<h4>By default Azure allows traffic inside the Vnet</h4> 
 Create a Bastion subnet.<br/>
 <img src="https://i.imgur.com/M5MkGaP.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <h4>Step 3</h4> 
 
-<h4>Step 2</h4> 
-Configure Bastion.<br/>
+<h4>To enable User defined routes, first create a Route table resource.</h4> 
 <img src="https://i.imgur.com/YnUlt3I.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <h4>Step 3</h4>
 
-<h4>Step 3</h4> 
-Log into the VM.<br/>
+<h4>Add route(s) to your route table</h4> 
 <img src="https://i.imgur.com/tmw9F3Z.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src="https://i.imgur.com/Vtbz3yY.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+<h4>Associate the route table with the relevant subnets</h4> 
+<img src="https://i.imgur.com/tmw9F3Z.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+<h4>Enable IP forwading</h4> 
+<img src="https://i.imgur.com/tmw9F3Z.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
