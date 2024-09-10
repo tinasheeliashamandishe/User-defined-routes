@@ -26,8 +26,7 @@ Below, we have created a VM. This VM has no public IP address. Ware going to use
 <br />
 
 <h4>By default Azure allows traffic inside the Vnet</h4> 
-Create a Bastion subnet.<br/>
-<img src="https://i.imgur.com/M5MkGaP.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/6hfb1Vk.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <h4>Step 3</h4> 
 
 <h4>To enable User defined routes, first create a Route table resource.</h4> 
