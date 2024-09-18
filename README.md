@@ -28,7 +28,7 @@ In the lab we will configure, all traffic in the network to pass through, the Ce
 <br />
 
 <h4>By default Azure allows traffic inside the Vnet</h4> 
-<img src="https://i.imgur.com/6hfb1Vk.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/6hfb1Vk.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 
 
 <h4>To enable User defined routes, first create a Route table resource.</h4> 
